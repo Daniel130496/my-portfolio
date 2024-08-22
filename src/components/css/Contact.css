@@ -1,0 +1,59 @@
+.contact {
+    text-align: center;
+    padding: 20px 50px;
+    font-size: 1.2em;
+    height: 50vh;
+    margin: 100px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px;
+    padding-top: 50px;
+}
+
+.icon {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.icon:hover {
+    color: #007bff;
+}
+
+/* For tablets and larger screens */
+@media (max-width: 768px) {
+    .contact {
+        padding: 15px 30px;
+        margin: 50px;
+        font-size: 1em;
+    }
+
+    .contact-icons {
+        gap: 15px;
+    }
+
+    .icon {
+        font-size: 1em;
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .contact {
+        padding: 10px 20px;
+        margin: 20px;
+        font-size: 0.9em;
+    }
+
+    .contact-icons {
+        gap: 10px;
+    }
+
+    .icon {
+        font-size: 0.8em;
+    }
+}

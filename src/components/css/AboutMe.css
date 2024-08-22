@@ -1,0 +1,23 @@
+.about-me {
+    text-align: center;
+    padding: 20px 50px;
+    font-size: 1.2em;
+    height: 50vh;
+    margin: 100px;
+}
+
+
+@media (max-width: 768px) {
+    .about-me {
+        padding: 15px 30px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-me {
+        padding: 10px 20px;
+        font-size: 0.9em;
+        height: auto;
+    }
+}
