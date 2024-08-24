@@ -14,25 +14,3 @@
     align-items: center;
     gap: 10px;
 }
-
-/* For tablets and larger screens */
-@media (max-width: 768px) {
-    .footer-content {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-}
-
-/* For mobile devices */
-@media (max-width: 480px) {
-    .footer {
-        padding: 10px;
-    }
-
-    .footer-content {
-        flex-direction: column;
-        gap: 5px;
-    }
-
-}
