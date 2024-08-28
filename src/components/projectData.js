@@ -8,11 +8,11 @@ const projectList = [
       link: "https://github.com/Daniel130496/signup-form",
     },
     {
-      title: "Project Two",
+      title: "Price Card",
       description:
-        "A brief description of Project Two. This project showcases my ability to work with React and build dynamic web applications.",
-      imageUrl: "path/to/project-two-image.jpg",
-      link: "https://github.com/yourusername/project-two",
+        "This project is pricing plan card built with React. It includes monthly and yearly plan with toggle button to switch between the two plans.",
+      imageUrl: process.env.PUBLIC_URL + "/pricecard.jpg",
+      link: "https://github.com/Daniel130496/price-card",
     },
   ];
   
