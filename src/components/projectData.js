@@ -20,6 +20,12 @@ const projectList = [
       imageUrl: process.env.PUBLIC_URL + "/weather.jpg",
       link: "https://daniel130496.github.io/weather-app/",
     },
+    {
+      title: "To-Do List App",
+      description: "TThis is a simple To-Do List application built with HTML, CSS, and JavaScript.",
+      imageUrl: process.env.PUBLIC_URL + "/todo-list.jpg",
+      link: "https://daniel130496.github.io/todo-list/",
+    },
   ];
   
   export default projectList;
